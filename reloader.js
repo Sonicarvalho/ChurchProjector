@@ -49,7 +49,7 @@ function processReqChange()
 				req2.open("POST", url+"?CANTICO="+currentCantico, true);
 				req2.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 				req2.send();
-				changed=false
+				changed=false;
 		   } catch (e) {
 			  console.error(e.message);
 		   }
